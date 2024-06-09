@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.rem_bra"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:3:5-80
+15-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:3:22-78
+16
+17    <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+17-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:4:5-8:16
+17-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:4:15-103
+18        <intent-filter>
+18-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:5:9-7:25
+19            <action android:name="android.intent.action.BOOT_COMPLETED" />
+19-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:6:13-82
+19-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:6:21-72
+20        </intent-filter>
+21    </receiver>
+22    <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+22-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:9:5-102
+22-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:9:15-99
+23
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:10:5-66
+24-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:10:22-63
+25    <!--
+26 io.flutter.app.FlutterApplication is an android.app.Application that
+27         calls FlutterMain.startInitialization(this); in its onCreate method.
+28         In most cases you can leave this as-is, but you if you want to provide
+29         additional functionality it is fine to subclass or reimplement
+30         FlutterApplication and put your custom class here.
+31    -->
+32    <application
+32-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:16:5-37:19
+33        android:name="io.flutter.app.FlutterApplication"
+33-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:17:9-57
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.2.0] /Users/domsim/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:19:9-43
+37        android:label="rem_bra" >
+37-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:18:9-32
+38        <activity
+38-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:20:9-31:20
+39            android:name="com.example.rem_bra.MainActivity"
+39-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:21:13-41
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:24:13-163
+41            android:hardwareAccelerated="true"
+41-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:25:13-47
+42            android:launchMode="singleTop"
+42-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:22:13-43
+43            android:theme="@style/LaunchTheme"
+43-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:23:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:26:13-55
+45            <intent-filter>
+45-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:27:13-30:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:28:17-68
+46-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:28:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:29:17-76
+48-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:29:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:34:9-36:33
+56            android:name="flutterEmbedding"
+56-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:35:13-44
+57            android:value="2" />
+57-->/Users/domsim/Developing/Flutter/iOS/rem_bra/android/app/src/main/AndroidManifest.xml:36:13-30
+58    </application>
+59
+60</manifest>
