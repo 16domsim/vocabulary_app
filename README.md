@@ -28,9 +28,3 @@ https://github.com/16domsim/vocabulary_app/assets/55878762/634301a2-efa0-44a2-a5
 https://github.com/16domsim/vocabulary_app/assets/55878762/b6301f3f-387e-40b6-89b3-477a003308e6)
 3. [Anlegung eines Kurses](
 https://github.com/16domsim/vocabulary_app/assets/55878762/550f2e1b-657c-49b7-8141-e0be3473b193)
-
-
-
-## Lizenz
-
-Diese App steht unter der [MIT-Lizenz](LICENSE).
