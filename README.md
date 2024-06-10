@@ -1,6 +1,6 @@
 # Vokabel App
 
-A Flutter vocabulary App I made for my graduation project in 2021. I used sqlite tostore the data adn primarily designed it for the use on iOS devices. As I made the App primarily to be used for German speakers, I will use German in the rest of the README.
+A Flutter vocabulary App I made for my graduation project in 2021. I used sqlite to store the data and primarily designed it for the use on iOS devices. As I made the App primarly to be used for German speakers, I will use German in the rest of the README.
 
 
 ## Problemstellung
